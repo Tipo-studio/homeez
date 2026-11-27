@@ -1,0 +1,278 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Build a short-drama app with catalogs, episode lists, and playback URLs from a single API.">
+  <title>Ezvid API | Short-drama streaming providers</title>
+  <link rel="stylesheet" href="ezvid.css">
+</head>
+<body>
+  <div class="page" id="overview">
+    <header class="navigation">
+      <a class="brand" href="#overview"><img src="assets/ezvid/ee292.svg" alt="" width="36" height="36"> Ezvid</a>
+      <nav aria-label="Main navigation">
+        <a href="#overview">Overview</a>
+        <a href="https://drama.ezvid.net">API keys</a>
+        <a href="https://drama.ezvid.net/create-key">Create an API key</a>
+      </nav>
+      <a class="button contact" href="https://t.me/ezvidnet/1">Contact us</a>
+    </header>
+    <div class="hatch" aria-hidden="true"><img src="assets/ezvid/a2b7e.svg" alt=""></div>
+    <main>
+      <section class="hero" aria-labelledby="hero-title">
+        <img class="hero-art" src="assets/ezvid/6ced1.png" alt="" width="1382" height="839">
+        <img class="cross-grid" src="assets/ezvid/aaa0f.svg" alt="" width="1392" height="336">
+        <div class="hero-copy">
+          <h1 id="hero-title">One API.<span>50+ streaming providers.</span></h1>
+          <p>Build a short-drama app with catalogs, episode lists, and playback URLs<br class="desktop-break"> from a single API.</p>
+          <div class="actions">
+            <a class="button primary" href="https://t.me/ezvidnet/1">Request a free trial</a>
+            <a class="button" href="https://drama.ezvid.net/create-key">Create an API key</a>
+          </div>
+        </div>
+        <div class="editor" aria-label="StarShort API request example">
+          <div class="editor-chrome">
+            <span class="window-controls" aria-hidden="true"><img src="assets/ezvid/292f2.svg" alt="" width="12" height="12"><img src="assets/ezvid/e9bd8.svg" alt="" width="12" height="12"><img src="assets/ezvid/94da9.svg" alt="" width="12" height="12"></span>
+            Ezvid API
+          </div>
+          <div class="editor-body">
+            <aside class="editor-sidebar" aria-label="Dashboard preview">
+              <span>DASHBOARD</span>
+              <ul><li>Overview</li><li>Usage</li><li>API keys</li><li>Billing</li></ul>
+            </aside>
+            <div class="editor-code">
+              <div class="editor-tab">Search StarShort</div>
+              <ol><li><code># Search the StarShort catalog</code></li><li><code>curl --request GET \</code></li><li><code>  'https://api.ezvid.net/api/starshort/search?keyword=love' \</code></li><li><code>  --header 'X-API-Key: YOUR_API_KEY'</code></li></ol>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="hatch" aria-hidden="true"><img src="assets/ezvid/a2b7e.svg" alt=""></div>
+      <ul class="highlights"><li>50+ providers</li><li>30+ languages</li><li>Technical support</li></ul>
+      <div class="hatch" aria-hidden="true"><img src="assets/ezvid/a2b7e.svg" alt=""></div>
+      <section class="section providers">
+        <div class="inner">
+          <h2>50+ streaming providers</h2>
+          <div class="provider-group">
+            <h3>Available <span>40</span></h3>
+            <ul class="provider-grid">
+              <li><img src="assets/ezvid/29cad.png" alt="" width="30" height="30">FreeReels</li>
+              <li><img src="assets/ezvid/86e54.png" alt="" width="30" height="30">NetShort</li>
+              <li><img src="assets/ezvid/259c6.png" alt="" width="30" height="30">AnyReel</li>
+              <li><img src="assets/ezvid/e6f22.png" alt="" width="30" height="30">Bonustv</li>
+              <li><img src="assets/ezvid/dec4f.png" alt="" width="30" height="30">CubeTV</li>
+              <li><img src="assets/ezvid/da686.png" alt="" width="30" height="30">DotDrama</li>
+              <li><img src="assets/ezvid/c4811.png" alt="" width="30" height="30">DramaBite</li>
+              <li><img src="assets/ezvid/d4c09.png" alt="" width="30" height="30">DramaBox</li>
+              <li><img src="assets/ezvid/64c99.png" alt="" width="30" height="30">DramaWave</li>
+              <li><img src="assets/ezvid/18439.png" alt="" width="30" height="30">FlareFlow</li>
+              <li><img src="assets/ezvid/9de2a.png" alt="" width="30" height="30">FlexTV</li>
+              <li><img src="assets/ezvid/9fb43.png" alt="" width="30" height="30">FlickReels</li>
+              <li><img src="assets/ezvid/a8a13.png" alt="" width="30" height="30">GoodShort</li>
+              <li><img src="assets/ezvid/28a04.png" alt="" width="30" height="30">HappyShort</li>
+              <li><img src="assets/ezvid/f3cee.png" alt="" width="30" height="30">HotMiniDrama</li>
+              <li><img src="assets/ezvid/06725.png" alt="" width="30" height="30">iDrama</li>
+              <li><img src="assets/ezvid/80b7a.png" alt="" width="30" height="30">Joyreels</li>
+              <li><img src="assets/ezvid/aaa8b.png" alt="" width="30" height="30">KalosTV</li>
+              <li><img src="assets/ezvid/056e7.png" alt="" width="30" height="30">LuminaReels</li>
+              <li><img src="assets/ezvid/7ffcd.png" alt="" width="30" height="30">Melolo</li>
+              <li><img src="assets/ezvid/ad2da.png" alt="" width="30" height="30">MeloShort</li>
+              <li><img src="assets/ezvid/c98ea.png" alt="" width="30" height="30">MicroDrama</li>
+              <li><img src="assets/ezvid/0f3c1.png" alt="" width="30" height="30">MoboReels</li>
+              <li><img src="assets/ezvid/9d32e.png" alt="" width="30" height="30">PineDrama</li>
+              <li><img src="assets/ezvid/be63d.png" alt="" width="30" height="30">RapidTV</li>
+              <li><img src="assets/ezvid/80167.png" alt="" width="30" height="30">RaptDrama</li>
+              <li><img src="assets/ezvid/3d467.png" alt="" width="30" height="30">Reelife</li>
+              <li><img src="assets/ezvid/0aa2e.png" alt="" width="30" height="30">ReelShort</li>
+              <li><img src="assets/ezvid/71813.png" alt="" width="30" height="30">SarosTV</li>
+              <li><img src="assets/ezvid/c6c64.png" alt="" width="30" height="30">Serial+</li>
+              <li><img src="assets/ezvid/f8b9c.png" alt="" width="30" height="30">ShortMax</li>
+              <li><img src="assets/ezvid/7fc74.png" alt="" width="30" height="30">ShortsWave</li>
+              <li><img src="assets/ezvid/cebad.png" alt="" width="30" height="30">SnackShort</li>
+              <li><img src="assets/ezvid/f27f4.png" alt="" width="30" height="30">Stardusttv2</li>
+              <li><img src="assets/ezvid/dc490.png" alt="" width="30" height="30">StarShort</li>
+              <li><img src="assets/ezvid/e8c11.png" alt="" width="30" height="30">StoryReel</li>
+              <li><img src="assets/ezvid/e6006.png" alt="" width="30" height="30">Velolo</li>
+              <li><img src="assets/ezvid/98bb5.png" alt="" width="30" height="30">Vibeshort</li>
+              <li><img src="assets/ezvid/aadc0.png" alt="" width="30" height="30">Vigloo</li>
+              <li><img src="assets/ezvid/ac069.png" alt="" width="30" height="30">MyDrama</li>
+            </ul>
+          </div>
+          <div class="provider-group">
+            <h3>Under maintenance <span>6</span></h3>
+            <ul class="provider-grid">
+              <li><img src="assets/ezvid/e8cc6.png" alt="" width="30" height="30">BiliTV</li>
+              <li><img src="assets/ezvid/030a9.png" alt="" width="30" height="30">Bstation</li>
+              <li><img src="assets/ezvid/ef110.png" alt="" width="30" height="30">DramaNova</li>
+              <li><img src="assets/ezvid/571cf.png" alt="" width="30" height="30">FunDrama</li>
+              <li><img src="assets/ezvid/92e85.png" alt="" width="30" height="30">Gold Drama</li>
+              <li><img src="assets/ezvid/fcc92.png" alt="" width="30" height="30">TopDrama</li>
+            </ul>
+          </div>
+          <div class="provider-group">
+            <h3>Coming soon <span>10</span></h3>
+            <ul class="provider-grid">
+              <li><img src="assets/ezvid/f35a5.png" alt="" width="30" height="30">MiniTv</li>
+              <li><img src="assets/ezvid/dedf8.png" alt="" width="30" height="30">ReelBuzz</li>
+              <li><img src="assets/ezvid/fc74d.png" alt="" width="30" height="30">BlinkDrama</li>
+              <li><img src="assets/ezvid/3bed5.png" alt="" width="30" height="30">Drama Pops</li>
+              <li><img src="assets/ezvid/4138d.png" alt="" width="30" height="30">MoreShort</li>
+              <li><img src="assets/ezvid/34a2c.png" alt="" width="30" height="30">Playlet</li>
+              <li><img src="assets/ezvid/54ffa.png" alt="" width="30" height="30">PopDrama</li>
+              <li><img src="assets/ezvid/d6319.png" alt="" width="30" height="30">Shortical</li>
+              <li><img src="assets/ezvid/68faa.png" alt="" width="30" height="30">SixthShort</li>
+              <li><img src="assets/ezvid/c4d65.png" alt="" width="30" height="30">ToonShort</li>
+            </ul>
+          </div>
+          <p class="provider-note">Provider availability and supported features may vary.</p>
+        </div>
+      </section>
+      <div class="hatch" aria-hidden="true"><img src="assets/ezvid/a2b7e.svg" alt=""></div>
+      <section class="section alternate languages">
+        <div class="inner">
+          <h2>30+ supported languages</h2>
+          <p>Language, subtitle, and metadata availability vary by provider and title.</p>
+          <ul class="language-grid">
+            <li>Turkish</li>
+            <li>German</li>
+            <li>Spanish</li>
+            <li>Portuguese (Brazil)</li>
+            <li>French</li>
+            <li>Italian</li>
+            <li>Dutch</li>
+            <li>Polish</li>
+            <li>Czech</li>
+            <li>Romanian</li>
+            <li>Indonesian</li>
+            <li>Malay</li>
+            <li>Filipino</li>
+            <li>Vietnamese</li>
+            <li>Russian</li>
+            <li>Ukrainian</li>
+            <li>Arabic</li>
+            <li>Hindi</li>
+            <li>Bengali</li>
+            <li>Tamil</li>
+            <li>Telugu</li>
+            <li>Thai</li>
+            <li>Burmese</li>
+            <li>Japanese</li>
+            <li>Korean</li>
+            <li>Simplified Chinese</li>
+            <li>Traditional Chinese</li>
+            <li>English</li>
+            <li>Urdu</li>
+            <li>Persian</li>
+            <li>Malayalam</li>
+            <li>Khmer</li>
+            <li>Hebrew</li>
+            <li>Greek</li>
+            <li>Swedish</li>
+            <li>Hungarian</li>
+            <li>Danish</li>
+            <li>Finnish</li>
+            <li>Norwegian</li>
+            <li>Swahili</li>
+          </ul>
+        </div>
+      </section>
+      <div class="hatch" aria-hidden="true"><img src="assets/ezvid/a2b7e.svg" alt=""></div>
+      <section class="section capabilities">
+        <div class="inner">
+          <h2>From catalog to playback</h2>
+          <p>Get the data you need to build a short-drama app for web or mobile.</p>
+          <div class="capability-grid">
+            <article class="capability spotlight">
+              <div><img src="assets/ezvid/49ccd.svg" alt="" width="22" height="22"><h3>One API for multiple providers</h3><p>Access multiple content providers through a single API.</p></div>
+              <div class="integration-art" aria-hidden="true">
+                <img class="piece-0" src="assets/ezvid/ec9eb.svg" alt="">
+                <img class="piece-1" src="assets/ezvid/fef63.svg" alt="">
+                <img class="piece-2" src="assets/ezvid/fe922.svg" alt="">
+                <img class="piece-3" src="assets/ezvid/86e54.png" alt="">
+                <img class="piece-4" src="assets/ezvid/e949d.svg" alt="">
+                <img class="piece-5" src="assets/ezvid/64c99.png" alt="">
+                <img class="piece-6" src="assets/ezvid/98bb5.png" alt="">
+                <img class="piece-7" src="assets/ezvid/ecd37.svg" alt="">
+                <img class="piece-8" src="assets/ezvid/66e36.svg" alt="">
+                <img class="piece-9" src="assets/ezvid/e949d.svg" alt="">
+                <span>&lt;/&gt;</span>
+              </div>
+            </article>
+            <article class="capability"><img src="assets/ezvid/ecaf5.svg" alt="" width="22" height="22"><h3>Drama details and episodes</h3><p>Retrieve drama details, episode order, and access status where available.</p></article>
+            <article class="capability"><img src="assets/ezvid/4bd10.svg" alt="" width="22" height="22"><h3>Video playback URLs</h3><p>Get playback URLs for supported episodes.</p></article>
+            <article class="capability"><img src="assets/ezvid/6abc7.svg" alt="" width="22" height="22"><h3>Drama catalogs</h3><p>Browse titles, posters, and descriptions in each provider’s catalog.</p></article>
+            <article class="capability"><img src="assets/ezvid/02812.svg" alt="" width="22" height="22"><h3>Search and pagination</h3><p>Search by keyword and browse results page by page.</p></article>
+          </div>
+        </div>
+      </section>
+      <div class="hatch" aria-hidden="true"><img src="assets/ezvid/a2b7e.svg" alt=""></div>
+      <section class="section alternate management">
+        <div class="inner">
+          <div><h2>Customer<br>management features</h2><img class="management-art" src="assets/ezvid/7eca5.svg" alt="" width="376" height="210"></div>
+          <ul class="management-grid">
+            <li><img src="assets/ezvid/95824.svg" alt="" width="22" height="22"><div><h3>Dashboard</h3><p>Review your account and API access.</p></div></li>
+            <li><img src="assets/ezvid/98d85.svg" alt="" width="22" height="22"><div><h3>Create an API key</h3><p>Select providers and request a quota.</p></div></li>
+            <li><img src="assets/ezvid/e35ee.svg" alt="" width="22" height="22"><div><h3>Payment history</h3><p>View your payment history.</p></div></li>
+            <li><img src="assets/ezvid/68775.svg" alt="" width="22" height="22"><div><h3>API documentation</h3><p>Find endpoint details and integration guides.</p></div></li>
+            <li><img src="assets/ezvid/0ea47.svg" alt="" width="22" height="22"><div><h3>API usage</h3><p>Track API requests against your quota.</p></div></li>
+            <li><img src="assets/ezvid/15127.svg" alt="" width="22" height="22"><div><h3>Technical support</h3><p>Get help with API integration and technical issues.</p></div></li>
+          </ul>
+        </div>
+      </section>
+      <div class="hatch" aria-hidden="true"><img src="assets/ezvid/a2b7e.svg" alt=""></div>
+      <section class="section categories">
+        <div class="inner">
+          <h2>Product categories</h2>
+          <div class="category-grid">
+            <article><img src="assets/ezvid/89629.svg" alt="" width="136" height="90"><h3>Short-drama API</h3><p>Build your own short-drama streaming platform.</p><ul><li>Multi-provider API</li><li>API keys</li><li>Request quotas</li><li>Documentation</li></ul></article>
+            <article><img src="assets/ezvid/988b4.svg" alt="" width="136" height="90"><h3>Ready-to-use solutions</h3><p>Launch a streaming service with a ready-to-use app or site.</p><ul><li>White-label website</li><li>Android app</li><li>Telegram Mini App</li></ul></article>
+            <article><img src="assets/ezvid/1b0dd.svg" alt="" width="136" height="90"><h3>Custom development</h3><p>Build a streaming service around your business needs.</p><ul><li>Custom website</li><li>Mobile app</li><li>System integration</li></ul></article>
+            <article><img src="assets/ezvid/c13bf.svg" alt="" width="136" height="90"><h3>Tools and utilities</h3><p>Manage your content with tools like batch downloads.</p><ul><li>Batch download tool</li></ul></article>
+          </div>
+        </div>
+      </section>
+      <div class="hatch" aria-hidden="true"><img src="assets/ezvid/a2b7e.svg" alt=""></div>
+      <section class="section alternate quick-start" id="quick-start">
+        <div class="inner">
+          <h2>Quick start</h2>
+          <div class="quick-grid">
+            <div>
+              <p>Make your first request using an API key with StarShort access.</p>
+              <h3>Base URL</h3>
+              <a href="https://api.ezvid.net"><img src="assets/ezvid/92074.png" alt="" width="14" height="14"> https://api.ezvid.net</a>
+              <a href="https://api.ezvid.net/docs"><img src="assets/ezvid/50485.png" alt="" width="14" height="14"> View API reference</a>
+            </div>
+            <div class="request">
+              <p>Search StarShort</p>
+              <pre><code>curl --request GET \
+  'https://api.ezvid.net/api/starshort/search?keyword=love' \
+  --header 'X-API-Key: YOUR_API_KEY'</code></pre>
+              <p>Replace YOUR_API_KEY with your key and send the request from your server.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="hatch" aria-hidden="true"><img src="assets/ezvid/a2b7e.svg" alt=""></div>
+      <section class="section faq">
+        <div class="inner">
+          <h2>Frequently asked questions</h2>
+          <dl>
+            <div><dt>What does the Ezvid API provide?</dt><dd>Use catalogs, episode lists, and playback URLs from supported providers to build a website or mobile app.<a href="https://api.ezvid.net/docs">API reference</a></dd></div>
+            <div><dt>Can I try the API before choosing a plan?</dt><dd>Yes. Request a free trial API key on Telegram to test the endpoints.<a href="https://t.me/ezvidnet/1">Request a free trial</a></dd></div>
+            <div><dt>How do I get started?</dt><dd>Choose your providers and request a quota on the Pricing page. Review the quote before you pay, then follow the API reference to make your first request.<a href="https://drama.ezvid.net/create-key">View pricing</a></dd></div>
+          </dl>
+        </div>
+      </section>
+    </main>
+    <div class="hatch" aria-hidden="true"><img src="assets/ezvid/a2b7e.svg" alt=""></div>
+    <footer class="section alternate footer">
+      <div class="inner">
+        <a class="brand" href="#overview"><img src="assets/ezvid/1b883.svg" alt="" width="26" height="26"> Ezvid</a>
+        <a class="footer-contact" href="https://t.me/ezvidnet/1">Contact Us <img src="assets/ezvid/8a620.svg" alt="" width="16" height="16"></a>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>
+
